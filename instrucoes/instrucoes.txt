@@ -78,8 +78,34 @@ TODO LIST
 Project name: todo-vue
 add...: no (para todos os adds)
 
-cd todo-vue
-(antes de executar o npm install: git init)
-npm install
+>cd todo-vue
+(antes de executar o npm install: >git init)
+>npm install
 (acessar a pasta todo-vue no VSCode)
-npm run dev
+
+
+***Criar repositório todo-vue no github***
+
+***No terminal***
+>git add .
+>git commit -m "commit inicial"
+>git remote add origin https://github.com/pedrosimiao/todo-vue.git
+>git branch -M main
+>git push -u origin main
+>npm run dev
+
+***Apagar a pasta ./src/assets***
+
+***Apagar todo o conteúdo de ./src/components deixando só a pasta vazia***
+
+***Em App.vue, apagar todo o css, todo o html deixando apenas a tag <template> e apagar todo o JavaScript deixando apenas a tag <script setup>***
+
+***Em main.js, remover importação do import './assets/main.css'***
+
+***Usar o Bootstrap a partir no Node no Terminal***
+Em getbootstrap.com copiar o comando npm
+npm i bootstrap@5.3.3 (ou seja lá qual versão for a mais recente)
+
+***Em main.js, adicionar importação do arquivo de css do Bootstrap***
+***Está localizado na pasta node_modules/bootstrap/dist/css/bootstrap.min.css***
+import 'bootstrap/dist/css/bootstrap.min.css'
