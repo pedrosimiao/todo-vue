@@ -1,0 +1,85 @@
+***Abrir o PowerSHell***
+>npm init vue@latest primeiro_projeto_vue
+
+Need to install the following packages:
+create-vue@3.10.1
+Ok to proceed? (y) y
+
+Vue.js - The Progressive JavaScript Framework
+
+√ Add TypeScript? ... No / Yes
+√ Add JSX Support? ... No / Yes
+√ Add Vue Router for Single Page Application development? ... No / Yes
+√ Add Pinia for state management? ... No / Yes
+√ Add Vitest for Unit Testing? ... No / Yes
+√ Add an End-to-End Testing Solution? » No
+√ Add ESLint for code quality? ... No / Yes
+√ Add Vue DevTools extension for debugging? (experimental) ... No / Yes
+
+Scaffolding project in C:\Users\simia\Desktop\EBAC\Full Stack Python\Front-end\Modulo 27 - VueJS\primeiro_projeto_vue...
+
+Done. Now run:
+
+  cd primeiro_projeto_vue
+  npm install
+  npm run dev
+
+
+***Após executar os comandos acima***
+
+  VITE v5.1.6  ready in 2555 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+Acessar http://localhost:5173/ no navegador 
+
+***Abrir a pasta primeiro_projeto_vue no VSCode***
+
+***Apagar as pastas ./src/assets e ./src/components***
+
+***Remover do arquivo App.vue os imports referentes as pastas deletadas***
+No caso, apagar:
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
+
+***Remover do arquivo App.vue, o conteúdo da tag <template>***
+
+***Remover conteúdo da tag <styles>***
+
+***Remover do main.js os imports referentes as pastas deletadas***
+No caso, apagar:
+import './assets/main.css'
+
+***Em App.vue***
+
+O atributo setup é utilizado para configurar um componente 
+funcionalmente. 
+Ele é uma função que é chamada antes do componente ser criado 
+e recebe como argumentos props e context. 
+Dentro desta função, você pode configurar o estado reativo, 
+adicionar métodos, efeitos secundários e quaisquer outras lógicas 
+necessárias para o seu componente.
+
+O atributo scoped é usado para limitar o escopo de estilos CSS 
+em um componente Vue. 
+Quando você adiciona o atributo scoped a uma tag <style> 
+em um componente Vue, ele garante que esses estilos se apliquem 
+apenas aos elementos dentro desse componente.
+
+------------------------------------------------------------------------
+
+TODO LIST
+
+***No PowerShell***
+>npm init vue@latest
+
+Project name: todo-vue
+add...: no (para todos os adds)
+
+cd todo-vue
+(antes de executar o npm install: git init)
+npm install
+(acessar a pasta todo-vue no VSCode)
+npm run dev
