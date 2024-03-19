@@ -109,3 +109,8 @@ npm i bootstrap@5.3.3 (ou seja lá qual versão for a mais recente)
 ***Em main.js, adicionar importação do arquivo de css do Bootstrap***
 ***Está localizado na pasta node_modules/bootstrap/dist/css/bootstrap.min.css***
 import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+
+INSTALAR O VITE 
+npm install --save-dev vite
